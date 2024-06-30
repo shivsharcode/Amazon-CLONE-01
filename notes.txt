@@ -1,0 +1,5 @@
+CDN - Contact Delivery Network
+
+world me various servers hai jinme similar data hai 
+cdn hamare liye sabse nearest server se data lakar dedeta hai
+jisse faster execution and surfing ho 

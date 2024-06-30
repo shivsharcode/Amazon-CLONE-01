@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;     /* the border-size given to the element is counted with the height-width of that element not a separate border area like usual */
+}
+
+html, body{
+    height: 100%;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-items{
+    height: 50px;
+
+}
+
+.border-class{
+    border: 1.5px solid transparent;
+}
+.border-class:hover{
+    border: 1.5px solid white;
+}
+
+
+.navbar-parts{
+    display: flex;
+}
+
+
+.nav-logo-div{
+    width: 100px;
+    padding: 0rem 0.5rem 0rem 0.4rem  ;
+}
+
+.brand-logo{
+    height: inherit;
+    
+    background-image: url(../resources/images/amazon_logo.png);
+    background-size: cover;
+
+
+}
+
+.nav-address{
+    display: flex;
+    align-items: center;
+}
+
+.nav-address .nav-add-first{
+    position: relative;
+    top: 0.4rem;
+    align-self: center;
+    margin: 0px 5px
+}
+
+.nav-add-second .add-deliver-txt{
+    color: #ccc;
+    font-size: 12px;
+}
+.nav-add-second .add-country{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bolder;
+}
