@@ -16,6 +16,9 @@ html, body{
 
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+
+    width: 100vw;
     
 }
 
@@ -71,4 +74,68 @@ html, body{
     color: #fff;
     font-size: 14px;
     font-weight: bolder;
+}
+
+
+
+
+.nav-search{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: pink;
+    
+   width: 40rem;
+   height: 2.5rem;
+   border-radius: 0.25rem;
+
+    
+}
+
+.nav-search-departments{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border: none;
+}
+
+.nav-search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+
+
+.search-go{
+    /* padding: 4px; */
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.nav-search-searchIcon{
+    background-image: url(../resources/svg/magnifying-glass-solid.svg);
+    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    height: 100%;
+    width: 50%;
+    font-size: 0;
+
+    border: none;
+
+    background-color: transparent;
+    cursor: pointer;
 }
