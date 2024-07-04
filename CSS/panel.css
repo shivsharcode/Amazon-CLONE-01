@@ -6,7 +6,7 @@ a{
 
 
 .panel{
-    width: 100%;
+    /* width: 100%; */
     background-color: #232F3E;
     height: 2.5rem;
     display: flex;
