@@ -21,7 +21,7 @@ This project is a front-end clone of the Amazon website created using HTML and C
 - [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -35,7 +35,7 @@ This project is a front-end clone of the Amazon website created using HTML and C
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/amazon-clone.git
+    https://github.com/shivsharcode/Amazon-CLONE-01.git
     ```
 
 2. Navigate to the project directory:
@@ -53,22 +53,28 @@ This project is a front-end clone of the Amazon website created using HTML and C
 
 ## Folder Structure
 
-\`\`\`
-amazon-clone/
-├── css/
-│   ├── style.css
-├── images/
-│   ├── hero-bg.jpg
-│   ├── product1.jpg
-│   ├── product2.jpg
-│   └── ...
+```
+AMAZON-Clone-01/
+├── CSS/
+│   ├── footer.css
+│   ├── hero-section.css
+│   ├── panel.css
+│   └── style.css
+├── resources/
+│   ├── images/
+│   └── svg/
+├── SCRIPTS/
+│   └── footer-script.js
 ├── index.html
+├── notes.txt
 └── README.md
-\`\`\`
+```
 
-- `css/`: Contains the CSS files for styling the web pages.
-- `images/`: Contains images used in the project, such as the hero background and product images.
+- `CSS/`: Contains the CSS files for styling the web pages.
+- `resources/`: Contains images and SVG files used in the project.
+- `SCRIPTS/`: Contains JavaScript files for additional functionality.
 - `index.html`: The main HTML file for the project.
+- `notes.txt`: Contains any additional notes or documentation.
 - `README.md`: This file.
 
 ## Technologies Used
