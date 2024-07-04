@@ -1,0 +1,55 @@
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.panel{
+    width: 100%;
+    background-color: #232F3E;
+    height: 2.5rem;
+    display: flex;
+
+    padding-left: 0.75rem;
+}
+
+.panel-services{
+    display: flex;
+}
+
+.panel-items{
+    color: #ffffff;
+    
+    cursor: pointer;
+    
+    font-size: 0.875rem;
+
+    /* margin: 5px 0px 6px 0px;
+    padding: 0.5rem 0.505rem; */
+    /* height: 100%; */
+    padding: 0.6rem 0.5rem 0.5rem 0.6rem;
+}
+
+.panel-items a{
+    font-size: 0.875rem;
+    height: min-content;
+
+    font-weight: 300;
+
+}
+
+
+.panel-services .panel-items:hover{
+   padding-top: 0.65rem;
+}
+
+.panel-all-tab{
+    display: flex;
+    align-items: center;
+}
+
+.panel-all-tab i{
+    font-size: 1.2rem;
+    padding-right: 0.5rem;
+}
