@@ -16,9 +16,9 @@ html, body{
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
-    width: 100vw;
+    width: 100%;
     
 }
 
@@ -43,6 +43,7 @@ html, body{
 .nav-logo-div{
     width: 100px;
     padding: 0rem 0.5rem 0rem 0.4rem  ;
+    margin-left: 0.5rem;
 }
 
 .brand-logo{
@@ -76,7 +77,11 @@ html, body{
     font-weight: bolder;
 }
 
-
+.navbar-middle-fill{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+}
 
 
 .nav-search{
@@ -85,7 +90,7 @@ html, body{
 
     background-color: pink;
     
-   width: 40rem;
+   width: 95%;
    height: 2.5rem;
    border-radius: 0.25rem;
 
@@ -146,7 +151,7 @@ html, body{
 
 .nav-right{
     display: flex;
-    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
 }
 
 /* .nav-right-elements{
@@ -165,4 +170,26 @@ html, body{
 
 .nav-elements{
     cursor: pointer;
+    /* padding: 0.3rem 0rem; */
+}
+
+.nav-right .nav-elements{
+    padding: 0.5rem;
+}
+
+
+
+/* cart */
+
+.nav-cart{
+    margin-right: 0.5rem;
+    display: flex;
+}
+
+
+.nav-cart i{
+    font-size: 2rem;
+}
+.nav-cart p{
+   align-self: flex-end;
 }
